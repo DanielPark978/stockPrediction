@@ -1,2 +1,2 @@
 # stockPrediction
-Simple passion project with a specialized group to utilize an AI Model to predict stock prices
+A simple project pursued by a specialized team I lead to model a long short-term memory recurrent neural network that utilizes time series data to predict stock prices
