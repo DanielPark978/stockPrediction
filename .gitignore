@@ -64,7 +64,9 @@ path_to_your_stock_data.csv
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# Allow family tree Colab notebook
+!Family_Tree_Generator_Colab.ipynb
+!family_tree_colab_package/*.ipynb
 
 # Testing
 .pytest_cache/
