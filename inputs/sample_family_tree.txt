@@ -1,0 +1,85 @@
+# Sample Family Tree Data
+# Format: B: [little] -> [big] (Bold edge)
+#         AB: [little] -> [assistant big] (Dotted edge)
+
+# First Generation (Founders)
+B: Alice Johnson -> Robert Williams
+B: Charlie Davis -> Robert Williams
+B: Diana Martinez -> Sarah Anderson
+B: Eric Thompson -> Sarah Anderson
+
+# Second Generation
+B: Robert Williams -> Michael Chen
+B: Sarah Anderson -> Michael Chen
+B: Robert Williams -> Jennifer Lee & David Kim
+B: Sarah Anderson -> Patricia Garcia
+
+# Third Generation
+B: Michael Chen -> Christopher Rodriguez
+B: Jennifer Lee -> Christopher Rodriguez
+B: David Kim -> Elizabeth Martinez
+B: Patricia Garcia -> Elizabeth Martinez
+
+# Assistant Big Relationships
+AB: Alice Johnson -> Diana Martinez
+AB: Charlie Davis -> Eric Thompson
+AB: Michael Chen -> Jennifer Lee
+AB: Christopher Rodriguez -> Elizabeth Martinez
+
+# Chains (showing progression)
+B: Frank Wilson -> George Taylor -> Henry Moore
+B: Isabella Brown -> Julia White -> Katherine Black
+
+# Multiple Littles to One Big
+B: Laura Green & Marcus Hall -> Nathan Young
+
+# Complex chains with multiple names
+B: Olivia King & Peter Scott -> Rachel Adams -> Samuel Turner
+AB: Thomas Wright & Uma Lopez -> Victor Hill
+
+# Names with qualifiers (will test disambiguation)
+B: Jason Chen '26 -> Arthur Chen
+B: Jason Chen '27 -> Betty Davis
+AB: Alan Chu -> Jason Chen '26
+
+# Names that might stick together in OCR (for testing split detection)
+# These would appear in OCR as stuck together
+B: Serena Zhang -> Andy Xu
+B: Megan Foster -> Brian Cooper
+
+# Additional complex relationships
+B: Catherine Price -> Daniel Reed & Emma Stone
+AB: Felix Ward -> Grace Perry
+B: Daniel Reed -> Hannah Brooks
+B: Emma Stone -> Ian Powell
+
+# More chains
+B: Kylie Ross -> Logan James -> Maya Turner -> Noah Clark
+AB: Quinn Bell -> Ryan Foster -> Sophie Morgan
+
+# Testing edge cases
+B: Tyler Hughes & Vanessa Ross & Walter Sanders -> Xavier Collins
+AB: Yolanda Mitchell -> Zachary Turner
+B: Aaron Baker -> Bella Carter -> Caleb Evans -> Delilah Foster
+
+# Names with special characters (testing robustness)
+B: Ava O'Brien -> Liam McCarthy
+B: Ethan St. James -> Sophia Van Der Berg
+AB: Madison De La Cruz -> Noah Singh-Patel
+
+# Large family cluster
+B: Ruby Martinez -> Stella Johnson
+B: Oscar Thompson -> Stella Johnson
+B: Penelope Davis -> Stella Johnson
+B: Quinn Anderson -> Stella Johnson
+B: Stella Johnson -> Theodore Williams
+
+# Another generation
+B: Theodore Williams -> Ulysses Garcia
+B: Theodore Williams -> Victoria Lopez & William Harris
+AB: Ulysses Garcia -> Victoria Lopez
+
+# Final generation (deepest level)
+B: Ulysses Garcia -> Xander Mitchell
+B: Victoria Lopez -> Xander Mitchell
+B: William Harris -> Yasmine Cooper & Zane Bennett
