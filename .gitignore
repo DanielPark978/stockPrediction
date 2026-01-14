@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Outputs (family tree generator)
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.dot
+*.graphml
+
+# Keep sample inputs but ignore user inputs
+inputs/*
+!inputs/sample_family_tree.txt
+!inputs/README.md
+
+# Data files
+*.csv
+*.json
+!package.json
+!package-lock.json
+
+# Stock prediction data
+*.csv
+path_to_your_stock_data.csv
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+# Allow family tree Colab notebook
+!Family_Tree_Generator_Colab.ipynb
+!family_tree_colab_package/*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

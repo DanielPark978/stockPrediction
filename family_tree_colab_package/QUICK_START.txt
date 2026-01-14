@@ -1,0 +1,109 @@
+═══════════════════════════════════════════════════════════════
+    🌳 FAMILY TREE GENERATOR - GOOGLE COLAB
+═══════════════════════════════════════════════════════════════
+
+📦 WHAT'S IN THIS PACKAGE:
+
+  1. Family_Tree_Generator_Colab.ipynb
+     → The main notebook (upload this to Google Colab)
+
+  2. README.md
+     → Complete documentation and guide
+
+  3. sample_family_tree.txt
+     → Example input file to test with
+
+
+🚀 QUICK START (3 STEPS):
+
+  Step 1: Upload to Google Colab
+  ────────────────────────────────
+  • Go to https://colab.research.google.com/
+  • Click "File" → "Upload notebook"
+  • Select Family_Tree_Generator_Colab.ipynb
+
+
+  Step 2: Run All Cells
+  ─────────────────────
+  • Click "Runtime" → "Run all"
+  • Or press Ctrl+F9 (Windows) / Cmd+F9 (Mac)
+  • Wait ~30 seconds for installation
+
+
+  Step 3: Upload Your Files
+  ─────────────────────────
+  • When prompted, upload your screenshots (.png, .jpg)
+  • Or upload text files (.txt) in this format:
+
+      B: Alice -> Bob
+      AB: Charlie -> Diana
+      B: Eve & Frank -> George
+
+  • You can test with sample_family_tree.txt first!
+
+
+✅ THAT'S IT!
+
+  The notebook will:
+  ✓ Process your images with OCR
+  ✓ Parse relationship data
+  ✓ Generate a beautiful family tree
+  ✓ Create print-ready tiles
+  ✓ Let you download everything
+
+
+📊 WHAT YOU'LL GET:
+
+  Visualizations:
+  • tree_full.png - High-res master image
+  • preview_small.png - Web preview
+  • tiles/ - Print-ready 11x17" tiles
+  • previews_zoom/ - Zoomed sections
+
+  Data Files:
+  • edges.json - Relationship data
+  • aliases.csv - Name mappings
+  • tree.dot - Graphviz source
+  • tree.graphml - Import to other tools
+
+
+📝 INPUT FORMAT:
+
+  Bold edges (Big relationships):
+    B: Alice -> Bob
+    B: Charlie & Dana -> Eve
+    B: Alice -> Bob -> Charlie
+
+  Dotted edges (Assistant Big):
+    AB: Frank -> George
+
+  Rules:
+  • Use "->" for arrows (also accepts →, =>, —>)
+  • Use "&" or "and" for multiple names
+  • Chains work: A -> B -> C
+
+
+💡 TIPS:
+
+  ✓ Test with sample_family_tree.txt first
+  ✓ Use clear, high-contrast screenshots
+  ✓ Add year/class to distinguish duplicates: Jason '26 vs Jason '27
+  ✓ Check edges.json for OCR errors
+  ✓ Download ZIP for all files at once
+
+
+❓ NEED HELP?
+
+  Read README.md for:
+  • Detailed instructions
+  • Troubleshooting guide
+  • Customization options
+  • Advanced features
+
+
+═══════════════════════════════════════════════════════════════
+
+Ready? Go to https://colab.research.google.com/ and upload the
+notebook to get started!
+
+═══════════════════════════════════════════════════════════════
